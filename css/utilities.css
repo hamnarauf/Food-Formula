@@ -1,0 +1,80 @@
+/* utility classes */
+
+/* importing google font */
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Georama:wght@200&display=swap");
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* creating variables */
+:root {
+    --font-primary: "Chelsea Market", cursive;
+    --font-secondary: "Georama", sans-serif;
+    --color-primary: white;
+    --color-secondary: rgb(6, 180, 99);
+}
+
+/* utility classes for text */
+.text-primary {
+    font-family: var(--font-primary);
+    color: var(--color-secondary);
+    font-size: 3.1rem;
+    margin: 1.5rem;
+}
+
+.text-secondary {
+    font-family: var(--font-secondary);
+    color: var(--color-primary);
+    font-size: 1rem;
+}
+
+
+/* utility classes for flex */
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* utility class for button */
+button {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+    border: none;
+    font-weight: bold;
+    padding: 0.75rem 1.563rem;
+    margin: 1.563rem;
+    outline: none;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+button:hover {
+    box-shadow: 0 0 15px var(--color-secondary), 0 0 15px var(--color-secondary), 0 0 15px var(--color-secondary);
+    text-shadow: 0 0 30px var(--color-primary), 0 0 40px var(--color-primary), 0 0 30px var(--color-primary);
+    ;
+}
+
+/* utility class for aligning items center */
+.content-center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}

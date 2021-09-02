@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food Formula</title>
+
+        <!-- css stylesheet -->
+        <link rel="stylesheet" href="css/utilities.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media-queries.css">
+
+        <!-- javascript -->
+        <script src="js/script.js"></script>
+
+        <!-- logo -->
+        <link rel="icon" href="img/logo.png">
+
+        <!-- importing icons from font awesome -->
+        <script src="https://kit.fontawesome.com/deb091a632.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header class="flex-row">
+            <!-- logo -->
+            <ul class="logo flex-row content-center">
+                <li><img src="img/logo.png" alt=""></li>
+                <li><span class="logo-text">Food Formula</span>
+            </ul>
+            <!-- navbar -->
+            <nav>
+                <!-- hamburger menu -->
+                <div class="hamburger" onclick="toggleMenu()"></div>
+                <!-- navbar-items -->
+                <ul class="navbar flex-row">
+                    <li><a class="nav-item" onclick="toggleMenu()" href="#">Home</a></li>
+                    <li><a class="nav-item" onclick="toggleMenu()" href="#about">About</a></li>
+                    <li><a class="nav-item" onclick="toggleMenu()" href="#menu">Menu</a></li>
+                    <li><a class="nav-item" onclick="toggleMenu()" href="#services">Services</a></li>
+                    <li><a class="nav-item" onclick="toggleMenu()" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- home section -->
+        <section id="home" class="content-center flex-column">
+            <!-- introduction -->
+            <h1 class="text-primary">NOTHING BRINGS PEOPLE TOGETHER LIKE GOOD FOOD</h1>
+            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. A magnam deserunt facere
+                quam nulla. Eos odio vero eveniet placeat quis quia nam at quasi voluptas. Ab veritatis, quidem at
+                dolore odit impedit nam, molestiae debitis dicta incidunt minima! Quas, quaerat reiciendis. Perferendis
+                qui aliquid in, nostrum fuga quidem dolores ex..</p>
+            <button class="text-secondary"><a href="#menu">OUR MENU</a></button>
+        </section>
+
+
+        <!-- about section -->
+        <section id="about" class="flex-row">
+            <div id="about-text" class=" flex-column">
+                <div class="text-primary">ABOUT</div>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quod
+                    voluptas enim dolorem aspernatur similique illo sapiente dicta tempore, ullam corporis corrupti. Ea
+                    quo laboriosam aspernatur molestiae ullam, assumenda dolorem perferendis itaque possimus, ad soluta
+                    excepturi quas quis, natus laudantium omnis adipisci commodi? Libero deserunt ipsa modi, vel qui
+                    possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rem, aliquam iusto
+                    praesentium, dolores aperiam a soluta accusamus mollitia hic eum beatae, quisquam itaque ad!
+                    Repellat, eum labore! Labore, doloremque! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Vero nisi, delectus laudantium natus magni velit dicta aliquid sit aliquam consectetur nemo dolore
+                    magnam tempore sunt soluta odio corrupti deserunt possimus dolores beatae dolorem pariatur excepturi
+                    rem. Totam temporibus culpa natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+                    earum temporibus cupiditate pariatur tempore rem recusandae quas impedit, voluptatem libero ex
+                    nesciunt porro! Ipsam perferendis illum ducimus, sunt earum iure aperiam neque dicta aspernatur.
+                    Unde quibusdam ipsum eius. Autem tempore voluptates assumenda tempora nihil esse minus quaerat
+                    expedita impedit! Eaque ad optio tempore eveniet placeat laboriosam. Fuga debitis dolor repudiandae!
+                </p>
+            </div>
+            <!-- about img -->
+            <div id="about-img">
+                <img src="img/about-img.jpg" alt="">
+            </div>
+        </section>
+
+
+        <!-- menu section -->
+        <section id="menu">
+            <!-- main heading -->
+            <div id="menu-text" class="flex-column content-center">
+                <div class="text-primary">OUR MENU</div>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cum beatae
+                    libero inventore deleniti repellat quos blanditiis facere. Minima, repudiandae.</p>
+            </div>
+            <!-- menu-items start here -->
+            <div id="menu-items" class="flex-row content-center">
+                <!-- menu-item 1 -->
+                <div class="menu-item flex-column ">
+                    <img src="img/menu/fries.jpg" alt="">
+                    <div class="menu-item-text">
+                        <div class="text-primary">Fries</div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ullam
+                            aspernatur, expedita possimus atque cumque voluptates fuga laboriosam, facere pariatur modi
+                            nobis neque dignissimos quae sint praesentium iure nostrum. Eaque provident necessitatibus
+                            impedit architecto cumque explicabo voluptate ratione accusantium nisi.</p>
+                    </div>
+                </div>
+                <!-- menu-item 2 -->
+                <div class="menu-item flex-column">
+                    <img src="img/menu/Pasta.jpg" alt="">
+                    <div class="menu-item-text">
+                        <div class="text-primary">Pasta</div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ullam
+                            aspernatur, expedita possimus atque cumque voluptates fuga laboriosam, facere pariatur modi
+                            nobis neque dignissimos quae sint praesentium iure nostrum. Eaque provident necessitatibus
+                            impedit architecto cumque explicabo voluptate ratione accusantium nisi.</p>
+                    </div>
+                </div>
+                <!-- menu-item 3 -->
+                <div class="menu-item flex-column">
+                    <img src="img/menu/Burger.jpg" alt="">
+                    <div class="menu-item-text">
+                        <div class="text-primary">Burger</div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ullam
+                            aspernatur, expedita possimus atque cumque voluptates fuga laboriosam, facere pariatur modi
+                            nobis neque dignissimos quae sint praesentium iure nostrum. Eaque provident necessitatibus
+                            impedit architecto cumque explicabo voluptate ratione accusantium nisi.</p>
+                    </div>
+                </div>
+                <!-- menu-item 4 -->
+                <div class="menu-item flex-column">
+                    <img src="img/menu/Sandwich.jpg" alt="">
+                    <div class="menu-item-text">
+                        <div class="text-primary">Sandwich</div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ullam
+                            aspernatur, expedita possimus atque cumque voluptates fuga laboriosam, facere pariatur modi
+                            nobis neque dignissimos quae sint praesentium iure nostrum. Eaque provident necessitatibus
+                            impedit architecto cumque explicabo voluptate ratione accusantium nisi.</p>
+                    </div>
+                </div>
+                <!-- menu-item 5 -->
+                <div class="menu-item flex-column">
+                    <img src="img/menu/Steak.jpg" alt="">
+                    <div class="menu-item-text">
+                        <div class="text-primary">Steak</div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ullam
+                            aspernatur, expedita possimus atque cumque voluptates fuga laboriosam, facere pariatur modi
+                            nobis neque dignissimos quae sint praesentium iure nostrum. Eaque provident necessitatibus
+                            impedit architecto cumque explicabo voluptate ratione accusantium nisi.</p>
+                    </div>
+                </div>
+                <!-- menu-item 6 -->
+                <div class="menu-item flex-column">
+                    <img src="img/menu/soup.jpg" alt="">
+                    <div class="menu-item-text">
+                        <div class="text-primary">Soup</div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ullam
+                            aspernatur, expedita possimus atque cumque voluptates fuga laboriosam, facere pariatur modi
+                            nobis neque dignissimos quae sint praesentium iure nostrum. Eaque provident necessitatibus
+                            impedit architecto cumque explicabo voluptate ratione accusantium nisi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- services section -->
+        <section id="services" class="center flex-column">
+            <!-- main heading -->
+            <div id="service-text" class="flex-column content-center">
+                <div class="text-primary">OUR SERVICES</div>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cum beatae
+                    libero inventore deleniti repellat quos blanditiis facere. Minima, repudiandae.</p>
+            </div>
+            <!-- service-items starts here -->
+            <div id="service-items" class="flex-row content-center">
+                <!-- service-item 1 -->
+                <div class="service-item flex-column center">
+                    <img src="img/services/Dine.jpg" alt="">
+                    <div class="service-item-text">
+                        <div class="text-primary">Dine</div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dicta
+                            odit! Magni earum autem, corporis cum id ab reiciendis. Tempora cupiditate facere corporis
+                            quos ut? Ratione quidem corrupti fugit maiores. Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Itaque veniam soluta non perspiciatis quia neque laboriosam deserunt
+                            tenetur, ut natus?</p>
+                    </div>
+                </div>
+                <!-- service-item 2 -->
+                <div class="service-item flex-column center">
+                    <img src="img/services/Home-Delivery.jpg" alt="">
+                    <div class="service-item-text">
+                        <div class="text-primary">Home-Delivery</div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dicta
+                            odit! Magni earum autem, corporis cum id ab reiciendis. Tempora cupiditate facere corporis
+                            quos ut? Ratione quidem corrupti fugit maiores. Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Itaque veniam soluta non perspiciatis quia neque laboriosam deserunt
+                            tenetur, ut natus?</p>
+                    </div>
+                </div>
+                <!-- service-item 3 -->
+                <div class="service-item flex-column center">
+                    <img src="img/services/catering.jpg" alt="">
+                    <div class="service-item-text">
+                        <div class="text-primary">Catering</div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dicta
+                            odit! Magni earum autem, corporis cum id ab reiciendis. Tempora cupiditate facere corporis
+                            quos ut? Ratione quidem corrupti fugit maiores. Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Itaque veniam soluta non perspiciatis quia neque laboriosam deserunt
+                            tenetur, ut natus?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- contact section -->
+        <section id="contact" class="flex-column ">
+            <!-- main heading -->
+            <div id="contact-heading">
+                <h3 class="text-primary content-center">Contact Us</h3>
+            </div>
+            <!-- contact section content -->
+            <div id="contact-content" class="flex-row">
+                <!-- column 1 -->
+                <div class="col1 flex-column">
+                    <!-- logo -->
+                    <ul class="logo flex-row">
+                        <li><img src="img/logo.png" alt=""></li>
+                        <li><span class="logo-text">Food Formula</span>
+                    </ul>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, ea!</p>
+                </div>
+                <!-- column 2 -->
+                <div class="col2 flex-column">
+                    <ul>
+                        <li id="location" class="text-secondary">
+                            <i class="fa fa-map-marker"></i> Block 1, City, Country
+                        </li>
+                        <li id="contactNo" class="text-secondary">
+                            <i class="fa fa-phone"></i> 12 3456789
+                        </li>
+                        <li id="email" class="text-secondary">
+                            <i class="fa fa-envelope-o"></i> customercare@foodformula.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- copyright footer -->
+        <footer id="copyright">
+            <div class="text-secondary content-center">Copyright 2021 &copy; <span>Food Formula</span> , All Rights
+                Reserved</div>
+        </footer>
+    </body>
+
+</html>
